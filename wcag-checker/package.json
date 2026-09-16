@@ -1,0 +1,17 @@
+{
+  "name": "wcag-url-checker",
+  "version": "1.0.0",
+  "description": "Audit a list of website URLs for accessibility compliance with WCAG, ADA, EAA and Section 508 (axe-core + Playwright).",
+  "bin": {
+    "wcag-check": "scan.js"
+  },
+  "scripts": {
+    "scan": "node scan.js",
+    "demo": "node scan.js --input urls.txt --out report"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "playwright": "^1.48.0"
+  }
+}

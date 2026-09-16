@@ -1,0 +1,5 @@
+# One URL per line. Blank lines and #comments are ignored.
+# Bare hostnames are upgraded to https:// automatically.
+https://www.example.com
+https://www.w3.org/WAI/
+example.org

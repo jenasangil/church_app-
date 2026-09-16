@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <style>
+    body{font-family:sans-serif}
+    .low{color:#a9b0b8;background:#ffffff}
+    .btnicon{width:14px;height:14px;border:none;background:#eee}
+    a{color:#bcd}
+  </style>
+</head>
+<body>
+  <!-- Missing lang on <html>, empty <title>, low-contrast text, unlabeled input,
+       image without alt, icon-only button and link, skipped heading level -->
+  <h1>Welcome</h1>
+  <h4>Sub-heading that skips h2 and h3</h4>
+
+  <p class="low">This paragraph uses very low contrast text that fails WCAG 1.4.3.</p>
+
+  <img src="banner.jpg">
+
+  <form>
+    <input type="email" placeholder="Email">
+    <button class="btnicon"></button>
+  </form>
+
+  <a href="/cart"><span class="btnicon"></span></a>
+
+  <div onclick="void 0">Fake clickable div</div>
+</body>
+</html>
