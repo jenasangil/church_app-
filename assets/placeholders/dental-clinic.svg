@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Dental clinic placeholder</title>
+  <desc id="desc">Placeholder image showing a stylized tooth with a sparkle above the words Dental Clinic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6F6F7"/>
+      <stop offset="1" stop-color="#C9EBEE"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF7F8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="1080" cy="120" r="180" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="120" cy="700" r="220" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- Badge behind the tooth -->
+  <circle cx="600" cy="320" r="170" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- Tooth -->
+  <g transform="translate(600 320)">
+    <path d="M -95 -95
+             C -140 -95 -150 -40 -138 5
+             C -126 50 -110 75 -100 130
+             C -94 160 -60 165 -50 130
+             C -40 95 -30 55 0 55
+             C 30 55 40 95 50 130
+             C 60 165 94 160 100 130
+             C 110 75 126 50 138 5
+             C 150 -40 140 -95 95 -95
+             C 60 -95 40 -75 0 -75
+             C -40 -75 -60 -95 -95 -95 Z"
+          fill="url(#tooth)" stroke="#1F7A84" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M -90 -60 C -110 -55 -112 -25 -105 0" fill="none" stroke="#1F7A84" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Sparkle -->
+  <path d="M 745 170 L 757 200 L 787 212 L 757 224 L 745 254 L 733 224 L 703 212 L 733 200 Z" fill="#F2B84B"/>
+  <path d="M 790 260 L 796 274 L 810 280 L 796 286 L 790 300 L 784 286 L 770 280 L 784 274 Z" fill="#F2B84B"/>
+
+  <text x="600" y="590" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#134E55">Dental Clinic</text>
+  <text x="600" y="645" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E6F76" letter-spacing="2">PLACEHOLDER IMAGE · 1200 × 800</text>
+</svg>
